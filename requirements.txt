@@ -1,3 +1,1 @@
-Flask
-Redis
-
+Django==2.1

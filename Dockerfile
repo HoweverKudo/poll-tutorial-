@@ -7,6 +7,7 @@ ADD requirements.txt /code/
 RUN pip install -r requirements.txt
 ADD . /code/
 VOLUME /app/projectdir
+RUN pip install psycopg2-binary
 =======
 # Use an official Python runtime as a parent image
 FROM python:3

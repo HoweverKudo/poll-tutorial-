@@ -8,6 +8,7 @@ RUN pip install -r requirements.txt
 ADD . /code/
 VOLUME /app/projectdir
 RUN pip install psycopg2-binary
+RUN pip install PyMySQL
 =======
 # Use an official Python runtime as a parent image
 FROM python:3
